@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portofolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!--my css-->
@@ -44,22 +45,27 @@
         <div class="row text-center mb-3">
           <div class="col"> 
             <div class="col-6">
+
+      <div data-aos="fade-right">
       <input type="image" src="img/IMG_20201204_125926.jpg" id="liveToastBtn" alt="profile-picture" width="250" class="rounded-5 shadow ">
-      <div class="container link-light">
+      <div class="container link-light ">
         <h1 class="display-5 fw-semibold ">Muhammad dwi cahyo</h1>
         <p>Student | Rpl</p>
         <p class="lead fw-normal"></p>
       </div>
     </div>
-          </div>
+  </div>
+  </div>
     <div class="col-6">
+      <div data-aos="fade-left">
       <input type="image" src="img/smk.png" id="liveToastBtn" alt="profile-picture" width="250" class="rounded-5 shadow ">
       <div class="container link-light">
         <h1 class="display-5 fw-semibold ">SMKN 1 PURWOSARI</h1>
         <p>School | Rpl</p>
       </div>
     </div>
-        </div>
+  </div>
+</div>
       </div>
        <div class="row">
       <div class="col text-center ">
@@ -78,12 +84,14 @@
             <h2>About Me</h2>
           </div>
         </div>
+        <div data-aos="flip-down">
         <div class="row justify-content-center fs-5 text-center">
+          <div data-aos="fade-left"></div>
           <div class="col-md-8">
             <p>NAMA saya adalah Muhammad Dwi Cahyo umur 16 tahun ,
               saya sekolah di SMKN 1 PURWOSARI dan memilih jurursan RPL yaitu Rekaysa Perangkat Lunak saya memilih RPL karena Prospek karir yang jelas
               Pesatnya perkembangan teknologi kian hari membuat jurusan RPL tak akan pernah usang, sehingga prospek karir jurusan ini selalu akan dicari oleh berbagai perusahaan.</p> 
-              
+              </div>
               <br>
               <section id="knowledge">
               <div class="row text-center">
@@ -117,22 +125,26 @@
             <h2>My project</h2>
           </div>
         </div>
-        </div>
+      </div>
         <div class="row">
           <div class="col-md-6 mb-8">
             <div class="card">
+              <div data-aos="zoom-in-down">
               <img src="img/Screenshot from 2022-09-19 22-05-25.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">berikut project pembuatan web di sekolah SMKN 1 PURWOSARI</p>
                 </div>
               </div>
+              </div>
             </div>
             <div class="col-md-6 mb-8">
               <div class="card">
+                <div data-aos="zoom-in-down">
                 <img src="img/Screenshot_2022-09-19-22-07-11-72_acb5878358ff2202477b3bc319279c27.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">berikut project game di sekolah SMKN 1 PURWOSARI</p>
                 </div>
+              </div>
               </div>
             </div>
           </div>
@@ -144,8 +156,12 @@
      <footer class="text-white text-center pb-5" style="background-color:#19bb27;">
       <p>Created With <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.tiktok.com/@dwicahyo102?is_from_webapp=1&sender_device=pc" class="text-white fw-bold">Muhammad Dwi Cahyo</a></p>
     </footer>
-
-
+    
+   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
